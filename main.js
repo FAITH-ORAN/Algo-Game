@@ -17,4 +17,9 @@ function displayName (event){
     + "  <button class='btn btn-primary ' type='button'><a style='color:white;'  href=\"indexF.html\">Niveau 2</a></button>" + 
     "  <button class='btn btn-primary ' type='button'><a style='color:white;'  href=\"indexC.html\">Niveau 3</a></button>" ; 
 }}
-
+//quand je clique sur l'input la value s'efface
+var white=document.getElementById("name");
+white.addEventListener("click",getDelate);
+function getDelate() {
+    white.value= " ";
+}
