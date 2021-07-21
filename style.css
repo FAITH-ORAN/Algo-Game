@@ -1,0 +1,41 @@
+/*-----------------Faiza Berrichi----------------*/
+/*-----------------Date:01/04/2021----------------*/
+/*-----------------Version:01/01----------------*/
+
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('font/starjedi-webfont.woff') format('woff2'),
+         url('font/starjedi-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    color: aliceblue;
+    background-image: url("images/outerspace-2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Tahoma;
+}
+.title{
+    margin-top: 7vh;
+    font-family: star_jediregular;
+}
+.box1{
+    margin-top: 7vh;
+}
+#modal1{
+    background-color: aliceblue;
+    color: rgb(41, 39, 39);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:5px;
+    box-shadow: 10px 5px 5px rgba(53, 10, 46, 0.555);
+    
+}
+@media screen and  (min-width: 768px){
+    .lien{
+        display:flex;
+        
+    }
+}
